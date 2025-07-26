@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Check, Edit2, Image, Package, Plus, X } from 'lucide-react'
-
+import './App.css'
 function App() {
   const [products, setProducts] = useState(() => {
     const saved = localStorage.getItem('products')
